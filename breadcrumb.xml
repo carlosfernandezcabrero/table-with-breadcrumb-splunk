@@ -1,0 +1,20 @@
+<dashboard script="breadcrumb.js" stylesheet="breadcrumb.css">
+  <label>Breadcrumb</label>
+  <row id="nav">
+    <panel>
+      <html>
+        <nav>
+          <ul id="path"><li><button id="b0">🏠</button></li><li></li></ul>
+          <button id="back">Volver atras</button>
+        </nav>
+      </html>
+    </panel>
+  </row>
+  <row>
+    <panel>
+      <html>
+        <div id="myTable"></div>
+      </html>
+    </panel>
+  </row>
+</dashboard>
